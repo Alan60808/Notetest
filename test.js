@@ -1,6 +1,8 @@
 //程式碼開始
+var google = require('google');
 var CHANNEL_ACCESS_TOKEN = "3rWORuikyamxptl2guKgn4kIyCYVFiYOZjfRSZ3hgnTKl5kIx3jhvkq6FiLZlOo6HJS2g3WFQPdGTeA2hIDiNsR8jwdyKcC95QwKISrGcu/nZxCINEcE8goEWHXk6c/frIE56ge/OGbewI9uzCwOGAdB04t89/1O/w1cDnyilFU=";
 var spreadSheetID = "1Xx0TnoamQkH0_gaLOOzMyAmGBUwufYKGURHVxrzfOiw";
+var spreadsheet = SpreadsheetApp.openById(spreadsheetId);
 var myID = "";
 var confirmMessage = "您所輸入的資料如下：";
 var cancelMessage = "您所輸入的資料已取消";
